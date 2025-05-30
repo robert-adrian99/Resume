@@ -39,7 +39,7 @@ struct Certifications: StaticPage {
             
             Section {
                 Section {
-                    Image("https://github.com/robert-adrian99/Resume/tree/main/Assets/images/azure-developer.png")
+                    Image("/images/azure-developer.png")
                         .accessibilityLabel("Azure Developer Associate")
                         .resizable()
                         .frame(width: 100, height: 100)
@@ -63,7 +63,7 @@ struct Certifications: StaticPage {
             
             Section {
                 Section {
-                    Image("https://github.com/robert-adrian99/Resume/tree/main/Assets/images/azure-ai.png")
+                    Image("/images/azure-ai.png")
                         .accessibilityLabel("Azure AI Fundamentals")
                         .resizable()
                         .frame(width: 100, height: 100)
@@ -87,7 +87,7 @@ struct Certifications: StaticPage {
             
             Section {
                 Section {
-                    Image("https://github.com/robert-adrian99/Resume/tree/main/Assets/images/white-belt.png")
+                    Image("/images/white-belt.png")
                         .accessibilityLabel("GenAI Academy: White Belt")
                         .resizable()
                         .frame(width: 100, height: 100)
@@ -111,7 +111,7 @@ struct Certifications: StaticPage {
             
             Section {
                 Section {
-                    Image("https://github.com/robert-adrian99/Resume/tree/main/Assets/images/yellow-belt.png")
+                    Image("/images/yellow-belt.png")
                         .accessibilityLabel("GenAI Academy: Yellow Belt Level 1")
                         .resizable()
                         .frame(width: 100, height: 100)
