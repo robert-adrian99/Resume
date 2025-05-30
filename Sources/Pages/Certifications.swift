@@ -13,6 +13,15 @@ struct Certifications: StaticPage {
     
     func body(context: PublishingContext) -> [BlockElement] {
         Group {
+            Text {
+                Strong {
+                    "Certifications"
+                }
+            }
+            .horizontalAlignment(.center)
+            .font(.title1)
+            .padding(.top, .extraLarge)
+            
             Section {
                 Section {
                     Image("/images/azure-fundamentals.png")

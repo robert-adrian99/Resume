@@ -12,7 +12,16 @@ struct Projects: StaticPage {
     var title = "Projects"
     
     func body(context: PublishingContext) -> [BlockElement] {
-        Section {
+        Group {
+            Text {
+                Strong {
+                    "Projects"
+                }
+            }
+            .horizontalAlignment(.center)
+            .font(.title1)
+            .padding(.top, .extraLarge)
+            
             Text {
                 Strong {
                     Emphasis {
@@ -21,7 +30,7 @@ struct Projects: StaticPage {
                 }
             }
             .horizontalAlignment(.center)
-            .font(.title1)
+            .font(.title2)
             .padding(.extraLarge)
         }
         .padding(.top, .extraLarge)

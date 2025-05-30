@@ -13,6 +13,15 @@ struct Contact: StaticPage {
     
     func body(context: PublishingContext) -> [BlockElement] {
         Group {
+            Text {
+                Strong {
+                    "Contact"
+                }
+            }
+            .horizontalAlignment(.center)
+            .font(.title1)
+            .padding(.top, .extraLarge)
+            
             Group {
                 Group {
                     Text("Where am I from?")

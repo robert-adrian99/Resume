@@ -13,6 +13,15 @@ struct Experience: StaticPage {
     
     func body(context: PublishingContext) -> [BlockElement] {
         Group {
+            Text {
+                Strong {
+                    "Experience"
+                }
+            }
+            .horizontalAlignment(.center)
+            .font(.title1)
+            .padding(.top, .extraLarge)
+            
             Section {
                 Group {
                     Text("💼")
