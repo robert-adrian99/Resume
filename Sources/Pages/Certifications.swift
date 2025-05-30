@@ -15,7 +15,7 @@ struct Certifications: StaticPage {
         Group {
             Section {
                 Section {
-                    Image("https://github.com/robert-adrian99/Resume/tree/main/Assets/images/azure-fundamentals.png")
+                    Image("/images/azure-fundamentals.png")
                         .accessibilityLabel("Azure Fundamentals")
                         .resizable()
                         .frame(width: 100, height: 100, alignment: .center)
