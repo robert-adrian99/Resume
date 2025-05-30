@@ -19,12 +19,12 @@ struct ResumeWebsite {
 struct ResumeSite: Site {
     var name = "Resume"
     var titleSuffix = " – Robert Adrian Bucur"
-    var url: URL = URL("https://www.example.com")
+    var url: URL = URL("https://robert-adrian99.github.io/Resume")
     var builtInIconsEnabled = true
     var author = "Robert Adrian Bucur"
     var homePage = Home()
     var theme = MyTheme()
-    var favicon: URL? = URL(string: "/images/profile.jpeg")
+    var favicon: URL? = URL(string: "https://robert-adrian99.github.io/Resume/Assets/images/profile.jpeg")
     
     var pages: [any StaticPage] = [
         Certifications(),
